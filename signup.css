@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 10;
+}
+
+.signup-container {
+    width: 340px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    padding: 50px;
+    border: 3px solid grey;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.signup-container h3 {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+}
+
+.container label {
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+.signup-container input[type="text"],
+.signup-container input[type="password"] {
+    width: 95%;
+    padding: 5px;
+    margin: 15px 0;
+    border: 2px solid grey;
+    border-radius: 12px;
+}
+
+.signup-container input[type="radio"] {
+    text-align: left;
+    margin-right: 10px;
+}
+
+.signup-container input[type="submit"] {
+    width: 70%;
+    padding: 5px;
+    margin: 15px 0;
+    background-color: white;
+    border: 1px solid;
+}
+
+.alert {
+    padding: 20px;
+    background-color: green;
+    color: white;
+    margin-bottom: 15px;
+}
